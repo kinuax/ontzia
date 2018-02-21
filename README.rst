@@ -1,9 +1,13 @@
 ontzia
 ======
 
-- development [![Build Status](https://travis-ci.org/kinuax/ontzia.svg?branch=dev)](https://travis-ci.org/kinuax/ontzia)
+- development
+.. image:: https://travis-ci.org/kinuax/ontzia.svg?branch=dev
+    :target: https://travis-ci.org/kinuax/ontzia
 
-- production [![Build Status](https://travis-ci.org/kinuax/ontzia.svg?branch=master)](https://travis-ci.org/kinuax/ontzia)
+- production
+.. image:: https://travis-ci.org/kinuax/ontzia.svg?branch=master
+    :target: https://travis-ci.org/kinuax/ontzia
 
 Description
 -----------
