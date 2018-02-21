@@ -1,0 +1,8 @@
+__pycache__/
+
+# distribution
+.eggs/
+*.egg-info/
+
+# pytest
+.pytest_cache/
