@@ -5,7 +5,7 @@ setup(
     name='ontzia',
     version='0.1.1',
     packages=['ontzia'],
-    install_requires=['flask', 'gunicorn'],
+    install_requires=['flask', 'flask-restful', 'gunicorn'],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
 )
