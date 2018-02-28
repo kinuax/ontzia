@@ -1,0 +1,12 @@
+<meta charset="utf-8"/>
+<!--fix firefox error-->
+
+{% for event in events %}
+    <ul>
+        <li>Title: {{ event.SUMMARY }}</li>
+        <li>Start: {{ event.DTSTART }}</li>
+        <li>End: {{ event.DTEND }}</li>
+        <li>Description: {{ event.DESCRIPTION }}</li>
+        <li>Categories: {{ event.CATEGORIES }}</li>
+    </ul>
+{% endfor %}
