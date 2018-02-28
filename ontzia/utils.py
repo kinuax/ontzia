@@ -14,7 +14,7 @@ def get_events_from_ics(filepath):
     If missing, timezone defaults to UTC.
 
     :param filepath: filepath of the ics
-    :return: dictionary
+    :return: list of dictionaries
     """
     with open(filepath, 'rb') as f:
         cal = Calendar.from_ical(f.read())
